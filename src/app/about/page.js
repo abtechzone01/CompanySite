@@ -48,7 +48,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="aboutServices">
+      {/* <div className="aboutServices">
         <h1 className="headingProficient">Our proficient squad</h1>
         <div className="aboutServices-container">
           <div className="aboutServices-item" data-wow-delay="0.1s">
@@ -101,7 +101,7 @@ const About = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
       <Footer />
     </>
   );
