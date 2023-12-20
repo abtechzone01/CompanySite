@@ -13,14 +13,14 @@ import HostingIcon from "/public/images/icons/Lovepik_com-450071300-aA web hosti
 import ContactIcon from "/public/images/icons8-sent-48.png";
 import Head from "next/head";
 import Home from "../../../components/Home";
+import Link from 'next/link'
 const Banner = () => {
   return (
     <>
       <Header />
 
       {/* Banner start  */}
-       <Home/>
-      
+      <Home />
 
       {/* About us Banner start  */}
 
@@ -154,14 +154,23 @@ const Banner = () => {
         <h1 className="contactUsHeading">Contact us!</h1>
         <div className="mailForm">
           <input
+            disabled={true}
             type="email"
             class="inputText"
             id="exampleInputEmail1"
             aria-describedby="emailHelp"
             placeholder="Enter Your Email"
           />
-          {/* <Link href={} /> */}
-          {/* <Image className="contactIcon" src={ContactIcon} height={60} width={60} alt="" />  */}
+         <Link href='/contact'>
+         <Image
+            className="contactIcon"
+            src={ContactIcon}
+            height={60}
+            width={60}
+            alt=""
+          />
+         </Link>
+         
         </div>
       </div>
       <Footer />

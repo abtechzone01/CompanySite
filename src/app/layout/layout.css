@@ -616,6 +616,7 @@ a {
     display: flex;
     justify-content: center;
     text-align: center;
+    position: relative;
 }
 
 .inputText {
@@ -635,6 +636,8 @@ a {
     box-sizing: border-box;
     padding: 10px;
     margin-bottom: 10px;
+    left: 70%;
+    top: -12%;
 }
 
 @media (max-width:991px) {
@@ -714,6 +717,7 @@ a {
         flex-basis: calc(33.333% - 40px);
         margin: 50px 20px;
     }
+    
 }
 
 /* Larger screens */
