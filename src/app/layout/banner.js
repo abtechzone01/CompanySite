@@ -2,15 +2,14 @@ import React from "react";
 import Header from "./header";
 import Footer from "./footer";
 import Image from "next/image";
-import bannerImage from "/public/images/Lovepik_com-400994281-attend-a-meeting.png";
-import aboutImage from "/public/images/Lovepik_com-400252803-attend-a-meeting.png";
-import DigitalMarking from "/public/images/icons/e-commerce-business-retail-digital-marketing-computer-icons-business-4b1f54374e08860b5175e16f91e069f2.png";
-import Website from "/public/images/icons/website-icon-29496.png";
-import Android from "/public/images/icons/android-icon-3088.png";
-import Sms from "/public/images/icons/h71p9i5006rm97j1n96cahhqcp.png";
-import ServiceIcon from "/public/images/icons/handshake-icon-35510.png";
-import HostingIcon from "/public/images/icons/Lovepik_com-450071300-aA web hosting vector illustration .png";
-import ContactIcon from "/public/images/icons8-sent-48.png";
+import aboutImage from "../../images/Lovepik_com-400252803-attend-a-meeting.png";
+import DigitalMarking from "../../images/icons/e-commerce-business-retail-digital-marketing-computer-icons-business-4b1f54374e08860b5175e16f91e069f2.png";
+import Website from "../../images/icons/website-icon-29496.png";
+import Android from "../../images/icons/android-icon-3088.png";
+import Sms from "../../images/icons/h71p9i5006rm97j1n96cahhqcp.png";
+import ServiceIcon from "../../images/icons/handshake-icon-35510.png";
+import HostingIcon from "../../images/icons/Lovepik_com-450071300-aA web hosting vector illustration .png";
+import ContactIcon from "../../images/icons8-sent-48.png";
 import Head from "next/head";
 import Home from "../../../components/Home";
 import Link from 'next/link'
@@ -161,7 +160,7 @@ const Banner = () => {
             aria-describedby="emailHelp"
             placeholder="Enter Your Email"
           />
-         <Link href='/contact'>
+         <Link href='/about'>
          <Image
             className="contactIcon"
             src={ContactIcon}

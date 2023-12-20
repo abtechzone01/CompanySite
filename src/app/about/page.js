@@ -2,7 +2,7 @@ import Footer from "../layout/footer";
 import Header from "../layout/header";
 import Image from "next/image";
 import "./about.css";
-import aboutImage from "/public/images/Lovepik_com-400252803-attend-a-meeting.png";
+import aboutImage from "../../images/Lovepik_com-400252803-attend-a-meeting.png";
 
 const About = () => {
   return (
@@ -16,7 +16,7 @@ const About = () => {
               AbTechZone IT Solutions, a native start-up company formed in 2023
             </h1>
             <p>
-              Tech Jain&aposs unified ingenious technologies consist of trademarked
+              Tech Jain&apos;s unified ingenious technologies consist of trademarked
               devices and operations refined over our extensive experience to
               offer numerous by- products that certify reliability expenditure
               control and business refinement

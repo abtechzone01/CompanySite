@@ -1,9 +1,10 @@
+
 import React from "react";
 import Header from "../layout/header";
 import Footer from "../layout/footer";
 import Image from "next/image";
-import DigitalMarking from "/public/images/icons/e-commerce-business-retail-digital-marketing-computer-icons-business-4b1f54374e08860b5175e16f91e069f2.png";
-import ContactIcon from "/public/images/icons8-sent-48.png";
+import DigitalMarking from "../../images/icons/e-commerce-business-retail-digital-marketing-computer-icons-business-4b1f54374e08860b5175e16f91e069f2.png";
+
 import "./services.css";
 
 const Service = () => {

@@ -2,8 +2,8 @@ import React from "react";
 import Header from "../layout/header";
 import Footer from "../layout/footer";
 import Image from "next/image";
-import aboutImage from "/public/images/Lovepik_com-400252803-attend-a-meeting.png";
-import DigitalMarking from "/public/images/icons/e-commerce-business-retail-digital-marketing-computer-icons-business-4b1f54374e08860b5175e16f91e069f2.png";
+import aboutImage from "../../images/Lovepik_com-400252803-attend-a-meeting.png";
+import DigitalMarking from "../../images/icons/e-commerce-business-retail-digital-marketing-computer-icons-business-4b1f54374e08860b5175e16f91e069f2.png";
 import "./objectives.css";
 
 const Objectives = () => {
