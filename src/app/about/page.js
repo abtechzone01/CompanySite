@@ -16,7 +16,7 @@ const About = () => {
               AbTechZone IT Solutions, a native start-up company formed in 2023
             </h1>
             <p>
-              Tech Jain's unified ingenious technologies consist of trademarked
+              Tech Jain&aposs unified ingenious technologies consist of trademarked
               devices and operations refined over our extensive experience to
               offer numerous by- products that certify reliability expenditure
               control and business refinement
