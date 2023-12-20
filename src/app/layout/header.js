@@ -37,9 +37,10 @@ const Header = () => {
             <Link href="/contact">Contact</Link>
           </li>
         </ul>
-        <button className="btn">
-          <a href="#">Get Started</a>
-        </button>
+        <Link href="/contact">
+          <button className="btn">Get Started</button>
+        </Link>
+
         <div className="slide" onClick={() => setisMobile(!isMobile)}>
           <i>
             {isMobile ? (
@@ -56,19 +57,19 @@ const Header = () => {
         {isMobile && (
           <>
             <ul className="mobile-links">
-              <li>
+              <li onClick={() => setisMobile(!isMobile)}>
                 <Link href="/">Home</Link>
               </li>
-              <li>
+              <li onClick={() => setisMobile(!isMobile)}>
                 <Link href="/about">About</Link>
               </li>
-              <li>
+              <li onClick={() => setisMobile(!isMobile)}>
                 <Link href="/objectives">Objectives</Link>
               </li>
-              <li>
+              <li onClick={() => setisMobile(!isMobile)}>
                 <Link href="/service">Service</Link>
               </li>
-              <li>
+              <li onClick={() => setisMobile(!isMobile)}>
                 <Link href="/contact">Contact</Link>
               </li>
             </ul>

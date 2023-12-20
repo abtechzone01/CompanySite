@@ -42,6 +42,7 @@ a {
     background-color: rgb(249, 169, 22);
     font-size: 1em;
     font-weight: 550;
+    color: white;
 }
 
 .btn:hover {
@@ -156,6 +157,7 @@ a {
     font-size: 1em;
     font-weight: 550;
     margin-top: 20px;
+    color: white;
 }
 
 .button:hover {

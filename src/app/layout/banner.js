@@ -12,44 +12,15 @@ import ServiceIcon from "/public/images/icons/handshake-icon-35510.png";
 import HostingIcon from "/public/images/icons/Lovepik_com-450071300-aA web hosting vector illustration .png";
 import ContactIcon from "/public/images/icons8-sent-48.png";
 import Head from "next/head";
-
+import Home from "../../../components/Home";
 const Banner = () => {
   return (
     <>
       <Header />
 
       {/* Banner start  */}
-
-      <div className="banner" data-wow-delay="0.1s">
-        <div className="row bannerRes">
-          <div className="col-6">
-            <h1 className="headingH1">
-              Leveraging the Technology to help Communities Flourish more
-              Quickly
-            </h1>
-            <p>
-              A worldwide contribution of digital solutions and networks
-              proffered alternatives of methodical and structured solutions for
-              well-defined development services
-            </p>
-            <div className="row">
-              <div className="col-6 BannerButton">
-                <button className="button">
-                  <a href="#">Read More</a>
-                </button>
-              </div>
-              <div className="col-6 BannerButton">
-                <button className="button">
-                  <a href="#">Company Profile</a>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div className="col-6 bannerResCol" >
-            <Image src={bannerImage} alt="" height={500} width={500} />
-          </div>
-        </div>
-      </div>
+       <Home/>
+      
 
       {/* About us Banner start  */}
 
@@ -62,7 +33,7 @@ const Banner = () => {
               Bareilly(U.P)
             </h1>
             <p>
-              TechJain's unified ingenious technologies consist of trademarked
+              AbTechZone unified ingenious technologies consist of trademarked
               devices and operations refined over our extensive experience to
               offer numerous by- products that certify reliability expenditure
               control and business refinement.
@@ -115,6 +86,7 @@ const Banner = () => {
       <div className="bannerServices">
         <p className="heading">--- Our Services ---</p>
         <h1 className="headingBold">What Solutions We Provide</h1>
+
         <div className="service-container">
           <div className="service-item" data-wow-delay="0.1s">
             <div className="service-icon">
@@ -125,6 +97,7 @@ const Banner = () => {
               ➨
             </a>
           </div>
+
           <div className="service-item" data-wow-delay="0.3s">
             <div className="service-icon">
               <Image src={Website} height={80} width={80} alt="" />
@@ -134,6 +107,7 @@ const Banner = () => {
               ➨
             </a>
           </div>
+
           <div className="service-item" data-wow-delay="0.5s">
             <div className="service-icon">
               <Image src={Android} height={80} width={80} alt="" />

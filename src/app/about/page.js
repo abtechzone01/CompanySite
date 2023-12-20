@@ -13,7 +13,7 @@ const About = () => {
           <div className="col-6 anima">
             <p className="aboutHeading">ABOUT US--</p>
             <h1 className="headingH1">
-              Tech Jain IT Solutions, a native start-up company formed in 2023
+              AbTechZone IT Solutions, a native start-up company formed in 2023
             </h1>
             <p>
               Tech Jain's unified ingenious technologies consist of trademarked
@@ -28,7 +28,7 @@ const About = () => {
               devops and IT operations.
             </p>
             <p>
-              TechJain concentrates on helping small setups to rekindle and
+              AbTechZone concentrates on helping small setups to rekindle and
               stimulate their effortsfor the evolution of modern age by offering
               customers, wellplanned, productive services with everlasting
               relations.

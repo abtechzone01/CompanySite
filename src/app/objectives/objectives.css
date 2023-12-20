@@ -90,6 +90,7 @@
         display: flex;
         justify-content: center;
         text-align: center;
+        width: 100%;
     }
 
     .objectives-item {
@@ -132,7 +133,15 @@
         display: flex;
         font-size: 20px;
     }
+    .objectiveBanner .responsivCollumn .col-8 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
 }
+
 
 @media(max-width:590px) {
     .objectiveBanner{
@@ -156,4 +165,11 @@
         display: flex;
         font-size: 20px;
     }
+    .objectiveBanner .responsivCollumn .col-8 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
 }

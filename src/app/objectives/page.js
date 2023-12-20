@@ -21,8 +21,8 @@ const Objectives = () => {
               </div>
               <h5>AUTHENTICITY</h5>
               <p>
-                Tech Jain IT Solutions is a distinguished company. Our belief is
-                to fabricate and maintain an everlasting deep-rooted
+                AbTechZone IT Solutions is a distinguished company. Our belief
+                is to fabricate and maintain an everlasting deep-rooted
                 relationship with our clients.
               </p>
             </div>
@@ -100,7 +100,7 @@ const Objectives = () => {
               </div>
               <h5>MODEST APPROACH</h5>
               <p>
-                As a critical thinker TechJain always provide a modest and
+                As a critical thinker AbTechZone always provide a modest and
                 feasible approach to our web development services to diverse
                 entrepreneurs.
               </p>
