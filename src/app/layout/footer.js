@@ -122,7 +122,7 @@ const Footer = () => {
             </a>
           </div>
 
-          <div className="col-3">
+          {/* <div className="col-3">
             <div className="bigLogo">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1068949.6265812637!2d79.18571198219423!3d28.351764877908632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sIn%20front%20of%20state%20bank%20of%20india%20road%20branch%20%2C%20above%20%2C%20TVS%20%2C%20Bike%20Agency%20Pilibhit%20Road%20Bosalpur%20262201%20Uttar%20Pradesh%20India%20262201!5e0!3m2!1sen!2sin!4v1703607373764!5m2!1sen!2sin"
@@ -135,7 +135,7 @@ const Footer = () => {
             <button className="top">
               <a href="#">⬆</a>
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

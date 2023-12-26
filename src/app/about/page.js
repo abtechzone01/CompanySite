@@ -2,14 +2,14 @@ import Footer from "../layout/footer";
 import Header from "../layout/header";
 import Image from "next/image";
 import "./about.css";
-import aboutImage from "../../images/Lovepik_com-400252803-attend-a-meeting.png";
+import aboutImage from "../../images/workteam.jpg";
 
 const About = () => {
   return (
     <>
       <Header />
       <div className="aboutBanner">
-        <div className="row">
+        <div className="row aboutecenter">
           <div className="col-6 anima">
             <p className="aboutHeading">ABOUT US--</p>
             <h1 className="headingH1">

@@ -345,7 +345,15 @@ a {
 .anima {
     animation: uppe 1s ease-in;
 }
+.aboutImage{
+    height: 50%;
+}
 
+.aboutecenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 @keyframes uppe {
     from {
         transform: translateY(100%);
@@ -413,7 +421,8 @@ a {
 .bannerServices {
     padding: 30px 100px;
     animation: serve 2s ease;
-    margin-top: 50px;
+    margin-top: 0px;
+
 }
 
 .bannerServices .heading {
