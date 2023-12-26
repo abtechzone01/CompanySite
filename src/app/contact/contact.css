@@ -41,26 +41,29 @@
 
 @media(max-width:769px) {
     .contactPage{
-        padding: 70px 70px;
+        padding: 70px 30px;
     }
     .contactPage .row{
         display: flex;
         flex-direction: column;
     }
 
+    .contactForm{
+        margin: 0px;
+        /* display: flex; */
+    }
   }
 @media(max-width:590px) {
     .contactPage{
-        padding: 0 0px;
-       
+        display: flex;
+        flex-direction: column;
+        padding: 70px 10px;
+        margin-left: 30px;
     }
 
-    .contactPage p{
-        display: flex; 
-        width: 100%; 
+    .contactForm{
+        margin: 0px;
+        /* display: flex; */
     }
-    .contactPage h1{
-        display: flex;
-        width: 100%;  
-    }
+
   }

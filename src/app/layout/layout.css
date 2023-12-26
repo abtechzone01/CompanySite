@@ -133,7 +133,7 @@ a {
 
 .banner {
     background-color: rgb(249, 169, 22);
-    width: 100%;
+    /* width: 100%; */
     height: auto;
     display: flex;
     position: relative;
@@ -145,7 +145,7 @@ a {
 .headingH1 {
     font-family: 'Afacad';
     font-weight: 900;
-    margin: 20px 0;
+    margin: 20px 0px;
 }
 
 .button {
@@ -167,6 +167,10 @@ a {
 
 
 @media (max-width:991px) {
+    .banner{
+        padding: 70px 30px;
+        margin-right: -20px;
+    }
     .banner .bannerRes{
         display: flex;
         flex-direction: column;
@@ -252,6 +256,7 @@ a {
 .aboutBanner {
     padding: 70px 130px;
     margin-top: 30px;
+    margin-right: -20px;
 }
 
 .aboutHeading {
@@ -369,8 +374,8 @@ a {
 @media (max-width:991px) {
     .aboutBanner {
         display: flex;
-        flex-direction: column;
-        /* width: 100%; */
+        flex-direction: column;  
+        margin-right: -20px;
     }
 
     .aboutBanner .row {
@@ -391,6 +396,7 @@ a {
 @media(max-width:769px) {
     .aboutBanner {
         padding: 50px 20px;
+        margin-right: -20px;
     }
 
   }
@@ -551,9 +557,12 @@ a {
     } 
     .service-item{
         border-radius: 10px;
+        padding: 60px;
+    }
+    .service-item:hover{
+        border-radius: 10px;
         padding: 30px;
     }
-    
     .service-container h5{
         font-size: 16px;
     }
