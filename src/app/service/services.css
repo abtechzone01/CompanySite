@@ -63,6 +63,7 @@
     .serviceHiring{
         width: 100%;
         padding: 50px 40px;
+        margin-left: -10px;
     }
     .serviceHiring-item{
         border-radius: 10px;
