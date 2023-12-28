@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./header";
 import Footer from "./footer";
 import Image from "next/image";
-import aboutImage from "../../images/workteam.jpg";
+import aboutImage from "../../images/ittech.jpg";
 import DigitalMarking from "../../images/icons/e-commerce-business-retail-digital-marketing-computer-icons-business-4b1f54374e08860b5175e16f91e069f2.png";
 import Website from "../../images/icons/website-icon-29496.png";
 import Android from "../../images/icons/android-icon-3088.png";
@@ -28,7 +28,7 @@ const Banner = () => {
           <div className="col-6 anima">
             <p className="aboutHeading">ABOUT US--</p>
             <h1 className="headingH1">
-              AbTechZone, a native start-up company formed in 2023 based in
+              AbTechZone, a native start-up company formed in 2021 based in
               Bareilly(U.P)
             </h1>
             <p>

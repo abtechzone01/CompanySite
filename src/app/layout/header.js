@@ -5,6 +5,7 @@ import "./layout.css";
 import { useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
+
 const Header = () => {
   const [isMobile, setisMobile] = useState(false);
 
@@ -30,8 +31,12 @@ const Header = () => {
           <li>
             <Link href="/objectives">Objectives</Link>
           </li>
+
           <li>
             <Link href="/service">Service</Link>
+          </li>
+          <li>
+            <Link href="/ourwork">Our Work</Link>
           </li>
           <li>
             <Link href="/contact">Contact</Link>
@@ -54,6 +59,7 @@ const Header = () => {
             )}
           </i>
         </div>
+
         {isMobile && (
           <>
             <ul className="mobile-links">
@@ -69,7 +75,12 @@ const Header = () => {
               <li onClick={() => setisMobile(!isMobile)}>
                 <Link href="/service">Service</Link>
               </li>
-              <li onClick={() => setisMobile(!isMobile)}>
+              <li>
+                <Link onClick={() => setisMobile(!isMobile)} href="/ourwork">
+                  Our Work
+                </Link>
+              </li>
+              <li>
                 <Link href="/contact">Contact</Link>
               </li>
             </ul>

@@ -16,8 +16,7 @@ const Footer = () => {
                 height={20}
                 width={20}
               />{" "}
-              In front of state bank of india road branch , above , TVS , Bike
-              Agency Pilibhit Road Bosalpur 262201 Uttar Pradesh India 262201{" "}
+              Bajpai Institute of Computer Science and Web Developers ,in front of state bank pilibhit road branch , Bisalpur (Pilibhit), UP-262201{" "}
             </p>
             <p className="abcd">
               <Image
@@ -53,9 +52,9 @@ const Footer = () => {
                 height={20}
                 width={20}
               />
-              info@abtechzone.com
+              abtechzone46@gmail.con
             </p>
-            <p className="abcd">
+            {/* <p className="abcd">
               <Image
                 src="/images/icons/clipart4360917.png"
                 alt=""
@@ -63,7 +62,7 @@ const Footer = () => {
                 width={20}
               />
               abtechzone84@gmail.com
-            </p>
+            </p> */}
 
             <div className="row aa">
               {/* <link></link> */}
