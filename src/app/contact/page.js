@@ -1,15 +1,13 @@
 "use client";
 import React, { useRef, useState } from "react";
-import Header from "../layout/header";
-import Footer from "../layout/footer";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./contact.css";
 import CircularProgress from "@mui/material/CircularProgress";
-
-const Contact = () => {
+import CloseIcon from "@mui/icons-material/Close";
+const Contact = ({ setOpen }) => {
   const form = useRef();
   const [loading, setloading] = useState(false);
   const sendEmail = (e) => {
@@ -48,8 +46,11 @@ const Contact = () => {
   };
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <div className="contactPage">
+        <div className="closediv" onClick={() => setOpen(false)}>
+          <CloseIcon />
+        </div>
         <p>--- Contact Us ---</p>
         <h1>Contact For Any Query</h1>
         <form ref={form} onSubmit={sendEmail} className="contactForm">
@@ -97,7 +98,7 @@ const Contact = () => {
           </div>
         </form>
       </div>
-      <Footer />
+      {/* <Footer /> */}
       <ToastContainer position="top-center" />
     </>
   );

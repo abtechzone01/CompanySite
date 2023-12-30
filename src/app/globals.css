@@ -1,4 +1,4 @@
-@import 'bootstrap/dist/css/bootstrap.min.css';
+@import "bootstrap/dist/css/bootstrap.min.css";
 * {
   padding: 0;
   margin: 0;
@@ -9,16 +9,17 @@ body,
 html {
   overflow-x: hidden;
   width: 100%;
-  font-family: 'Afacad', Arial, Helvetica, sans-serif;
+  font-family: "Afacad", Arial, Helvetica, sans-serif;
 }
 
-@media (max-width:1170px) {}
-
-@media(max-width:768px) {
-  
+@media (max-width: 1170px) {
 }
 
-@media(max-width:590px) {}
+@media (max-width: 768px) {
+}
+
+@media (max-width: 590px) {
+}
 
 .aboutServices {
   padding: 100px;
@@ -32,21 +33,20 @@ html {
   display: flex;
   justify-content: center;
   text-align: center;
-  font-family: 'Afacad';
+  font-family: "Afacad";
   font-weight: bold;
-  color: #FFFFFF;
+  color: #ffffff;
   /* padding-top: 20px; */
 }
 
 @keyframes serve {
   from {
-      transform: translateY(100%);
+    transform: translateY(100%);
   }
 
   to {
-      transform: translateY(0);
+    transform: translateY(0);
   }
-
 }
 
 .aboutServices-container {
@@ -74,29 +74,28 @@ html {
   transition: 0.5s;
 }
 
-.aboutServices-item h1{
-  font-family: 'Afacad';
+.aboutServices-item h1 {
+  font-family: "Afacad";
 }
 
-.aboutServices-item h6{
+.aboutServices-item h6 {
   color: gray;
 }
-.aboutServices-item p{
+.aboutServices-item p {
   margin-top: 40px;
   color: gray;
 }
 .aboutServices-item h5,
 .aboutServices-item {
   text-align: center;
-  transition: .5s;
+  transition: 0.5s;
 }
 
-.aboutServices-item:hover h6 ,
+.aboutServices-item:hover h6,
 .aboutServices-item:hover p,
 .aboutServices-item:hover {
   color: #000;
 }
-
 
 .wow {
   visibility: hidden;
@@ -110,32 +109,32 @@ html {
 
 @keyframes fadeInUp {
   from {
-      opacity: 1;
-      transform: translateY(20px);
+    opacity: 1;
+    transform: translateY(20px);
   }
 
   to {
-      opacity: 0;
-      transform: translateY(0);
+    opacity: 0;
+    transform: translateY(0);
   }
 }
 
-@media (max-width:991px) {
+@media (max-width: 991px) {
   .aboutServices {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-  } 
-  .aboutServices .aboutServices-container{
-      width: 100%;
-  } 
-  .aboutServices-item{
-      border-radius: 10px;
-      padding: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
-  
-  .aboutServices-container h6{
-      font-size: 15px;
+  .aboutServices .aboutServices-container {
+    width: 100%;
+  }
+  .aboutServices-item {
+    border-radius: 10px;
+    padding: 30px;
+  }
+
+  .aboutServices-container h6 {
+    font-size: 15px;
   }
 
   /* .bannerServices .row .bannerAboutImage{
@@ -143,33 +142,40 @@ html {
       justify-content: center;
       text-align: center;
   } */
-
 }
 
-@media(max-width:769px) {
+@media (max-width: 769px) {
   .aboutServices {
-      padding: 50px 20px;
+    padding: 50px 20px;
   }
-
 }
-@media(max-width:590px) {
+@media (max-width: 590px) {
   .aboutServices {
-      padding: 50px 10px;
+    padding: 50px 10px;
   }
 
   .aboutServices-item {
-      min-width: 200px;
-      width: 80%;
-      border-radius: 10px;
+    min-width: 200px;
+    width: 80%;
+    border-radius: 10px;
   }
-
 }
 
-.contactPage{
-  padding: 70px 300px;
-  margin: 50px;
+.contactPage {
+  /* padding: 70px 300px;
+  margin: 50px; */
+  position: relative;
 }
-.contactPage p{
+.closediv{
+  background-color: rgb(249, 169, 22);
+  position: absolute;
+  left: 100%;
+  bottom: 100%;
+  padding: 1rem;
+  border-radius: 50%;
+  color: white;
+}
+.contactPage p {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -177,14 +183,14 @@ html {
   font-weight: bold;
   text-transform: uppercase;
 }
-.contactPage h1{
+.contactPage h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Afacad';
+  font-family: "Afacad";
   font-weight: bold;
 }
-.contactForm{
+.contactForm {
   margin: 50px;
   /* display: flex; */
 }
@@ -194,45 +200,44 @@ html {
   margin: 10px;
 }
 
-@media (max-width:1200px) {
-  .contactPage{
-      padding: 70px 80px;
+@media (max-width: 1200px) {
+  .contactPage {
+    /* padding: 70px 80px; */
   }
 }
 
-@media (max-width:991px) {
-  .contactPage{
-      padding: 70px 50px;
+@media (max-width: 991px) {
+  .contactPage {
+    /* padding: 70px 50px; */
   }
 }
 
-@media(max-width:769px) {
-  .contactPage{
-      padding: 70px 30px;
+@media (max-width: 769px) {
+  .contactPage {
+    /* padding: 70px 30px; */
   }
-  .contactPage .row{
-      display: flex;
-      flex-direction: column;
+  .contactPage .row {
+    display: flex;
+    flex-direction: column;
   }
 
-  .contactForm{
-      margin: 0px;
-      /* display: flex; */
+  .contactForm {
+    margin: 0px;
+    /* display: flex; */
   }
 }
-@media(max-width:590px) {
-  .contactPage{
-      display: flex;
+@media (max-width: 590px) {
+  .contactPage {
+    /* display: flex;
       flex-direction: column;
       padding: 70px 10px;
-      margin-left: 30px;
+      margin-left: 30px; */
   }
 
-  .contactForm{
-      margin: 0px;
-      /* display: flex; */
+  .contactForm {
+    margin: 0px;
+    /* display: flex; */
   }
-
 }
 
 .navbar {
@@ -300,69 +305,96 @@ a {
   width: 25px;
   margin: 5px;
 }
+.btn10{
+  display: none;
+}
 
 @media screen and (max-width: 990px) {
-  .mobile-links{
-      height: 15rem;
-   
-      display: flex;
-      flex-direction: column;
-  }
-  .mobile-links li{
-      list-style: none;
+  .closediv {
+    background-color: rgb(249, 169, 22);
+    position: absolute;
+    left: 92%;
+    bottom: 94%;
+    padding: 1rem;
+    border-radius: 50%;
+    color: white;
+}
+.btn10 {
+  border: none;
+  border-radius: 100px;
+  width: 140px;
+  height: 40px;
+  background-color: rgb(249, 169, 22);
+  font-size: 1em;
+  font-weight: 550;
+  color: white;
+  display: block;
+}
 
+.btn10:hover {
+  transition: 1s;
+  box-shadow: 0 0 10px black;
+}
+  .mobile-links {
+    height: 15rem;
+
+    display: flex;
+    flex-direction: column;
+  }
+  .mobile-links li {
+    list-style: none;
   }
 
   .mobile-links li {
-      margin: auto 15px;
+    margin: auto 15px;
   }
-  
- .mobile-links a {
-      text-decoration: none;
-      color: white;
-      font-size: 1rem;
+
+  .mobile-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
   }
-  
+
   .mobile-links a:hover {
-      color: rgb(249, 169, 22);
-      transition: 1s;
+    color: rgb(249, 169, 22);
+    transition: 1s;
   }
-  .btn{
-      display: none;
+  .btn {
+    display: none;
   }
   .slide {
-      display: flex;
+    display: flex;
   }
 
   .nav-links {
-      margin-top: 40px;
-      display: none;
-      flex-direction: column;
-      text-align: center;
-      width: 100%;
-      position: absolute;
-      top: 60px;
-      left: 0;
-      background-color: white;
-      animation: slidein 0.5s ease;
+    margin-top: 40px;
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: white;
+    animation: slidein 0.5s ease;
   }
 
   .nav-links li {
-      margin: 5px;
+    margin: 5px;
   }
 
   .nav-links.show {
-      display: flex;
+    display: flex;
   }
 }
 
 @keyframes slidein {
   from {
-      transform: translateX(-100%);
+    transform: translateX(-100%);
   }
 
   to {
-      transform: translateX(0);
+    transform: translateX(0);
   }
 }
 
@@ -380,7 +412,7 @@ a {
 }
 
 .headingH1 {
-  font-family: 'Afacad';
+  font-family: "Afacad";
   font-weight: 900;
   margin: 20px 0px;
 }
@@ -402,36 +434,49 @@ a {
   box-shadow: 0 0 10px black;
 }
 
-
-@media (max-width:991px) {
-  .banner{
-      padding: 70px 30px;
-      margin-right: -20px;
+@media screen and (max-width: 780px) {
+  .whatsappicondiv {
+    position: fixed;
+    top: 89%;
+    left: 83%;
+    z-index: 10;
   }
-  .banner .bannerRes{
-      display: flex;
-      flex-direction: column;
-      /* width: 100%; */
+}
+@media (max-width: 991px) {
+  .whatsappicondiv {
+    position: fixed;
+    top: 89%;
+    left: 83%;
+    z-index: 10;
+  }
+  .banner {
+    padding: 70px 30px;
+    margin-right: -20px;
+  }
+  .banner .bannerRes {
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
   }
 
   .banner .row {
-      width: 100%;
+    width: 100%;
   }
-  .banner .row .col-6{
-      width: 100%;
+  .banner .row .col-6 {
+    width: 100%;
   }
-  .headingH1{
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      text-align: center;
-      font-size: 45px;
+  .headingH1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 45px;
   }
-  .banner .bannerRes .col-6 p{
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      text-align: center;
+  .banner .bannerRes .col-6 p {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
   }
   .BannerButton {
     display: flex;
@@ -439,25 +484,36 @@ a {
     text-align: center;
     margin-right: -20px;
   }
-  .banner .bannerRes .bannerResCol{
-      display: flex;
-      justify-content: center;
-      text-align: center;
+  .banner .bannerRes .bannerResCol {
+    display: flex;
+    justify-content: center;
+    text-align: center;
   }
 }
 
-@media(max-width:769px) {
-.banner {
+@media (max-width: 769px) {
+  .banner {
     padding: 50px 20px;
-}
+  }
+  .whatsappicondiv {
+    position: fixed;
+    top: 89%;
+    left: 83%;
+    z-index: 10;
+  }
 }
 
-@media(max-width:590px){
-.headingH1{
+@media (max-width: 590px) {
+  .headingH1 {
     font-size: 30px;
+  }
+  .whatsappicondiv {
+    position: fixed;
+    top: 89%!important;
+    left: 83%!important;
+    z-index: 10;
+  }
 }
-}
-
 
 .bannerResCol {
   animation: Image 1s ease-in;
@@ -465,11 +521,11 @@ a {
 
 @keyframes Image {
   from {
-      transform: translateX(100%);
+    transform: translateX(100%);
   }
 
   to {
-      transform: translateX(70%);
+    transform: translateX(70%);
   }
 }
 
@@ -479,13 +535,12 @@ a {
 
 @keyframes home1 {
   from {
-      transform: translateX(-100%);
+    transform: translateX(-100%);
   }
 
   to {
-      transform: translateX(0);
+    transform: translateX(0);
   }
-
 }
 
 /* About Banner start */
@@ -512,7 +567,7 @@ a {
 }
 
 .progressBar1::after {
-  content: '';
+  content: "";
   background: linear-gradient(135deg, #fd0000, #1d00ff);
   width: 0;
   height: 100%;
@@ -523,7 +578,7 @@ a {
 
 @keyframes progress85 {
   100% {
-      width: 85%;
+    width: 85%;
   }
 }
 
@@ -538,7 +593,7 @@ a {
 }
 
 .progressBar2::after {
-  content: '';
+  content: "";
   background: linear-gradient(135deg, #fd0000, #1d00ff);
   width: 0;
   height: 100%;
@@ -549,7 +604,7 @@ a {
 
 @keyframes progress90 {
   100% {
-      width: 90%;
+    width: 90%;
   }
 }
 
@@ -564,7 +619,7 @@ a {
 }
 
 .progressBar3::after {
-  content: '';
+  content: "";
   background: linear-gradient(135deg, #fd0000, #1d00ff);
   width: 0;
   height: 100%;
@@ -575,29 +630,29 @@ a {
 
 @keyframes progress95 {
   100% {
-      width: 95%;
+    width: 95%;
   }
 }
 
 .anima {
   animation: uppe 1s ease-in;
 }
-.aboutImage{
+.aboutImage {
   height: 50%;
 }
 
-.aboutecenter{
+.aboutecenter {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 @keyframes uppe {
   from {
-      transform: translateY(100%);
+    transform: translateY(100%);
   }
 
   to {
-      transform: translateY(0);
+    transform: translateY(0);
   }
 }
 
@@ -608,42 +663,40 @@ a {
 
 @keyframes zoom {
   from {
-      width: 0%;
+    width: 0%;
   }
 
   to {
-      width: 100%;
+    width: 100%;
   }
 }
 
-@media (max-width:991px) {
+@media (max-width: 991px) {
   .aboutBanner {
-      display: flex;
-      flex-direction: column;  
-      margin-right: -20px;
+    display: flex;
+    flex-direction: column;
+    margin-right: -20px;
   }
 
   .aboutBanner .row {
-      width: 100%;
+    width: 100%;
   }
-  .aboutBanner .row .col-6{
-      width: 100%;
-  }
-
-  .aboutBanner .row .bannerAboutImage{
-      display: flex;
-      justify-content: center;
-      text-align: center;
+  .aboutBanner .row .col-6 {
+    width: 100%;
   }
 
+  .aboutBanner .row .bannerAboutImage {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
 }
 
-@media(max-width:769px) {
+@media (max-width: 769px) {
   .aboutBanner {
-      padding: 50px 20px;
-      margin-right: -20px;
+    padding: 50px 20px;
+    margin-right: -20px;
   }
-
 }
 
 /* @media(max-width:590px){
@@ -652,14 +705,12 @@ a {
   }
 } */
 
-
 /* Services Banner start  */
 
 .bannerServices {
   padding: 30px 100px;
   animation: serve 2s ease;
   margin-top: 5%;
-
 }
 
 .bannerServices .heading {
@@ -675,20 +726,19 @@ a {
   display: flex;
   justify-content: center;
   text-align: center;
-  font-family: 'Afacad';
+  font-family: "Afacad";
   font-weight: 900;
   margin-bottom: 50px;
 }
 
 @keyframes serve {
   from {
-      transform: translateY(100%);
+    transform: translateY(100%);
   }
 
   to {
-      transform: translateY(0);
+    transform: translateY(0);
   }
-
 }
 
 .service-container {
@@ -725,7 +775,7 @@ a {
   align-items: center;
   justify-content: center;
   background-color: #5500ff;
-  transition: .5s;
+  transition: 0.5s;
   border-radius: 10px;
 }
 
@@ -737,14 +787,14 @@ a {
 .service-item h5,
 .service-item {
   text-align: center;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .service-item:hover h5,
 .service-item:hover {
-  color: #FFFFFF;
+  color: #ffffff;
 }
-.service-iconservice{
+.service-iconservice {
   margin: 30px auto 20px auto;
   padding: 0;
   width: 100px;
@@ -753,7 +803,7 @@ a {
   align-items: center;
   justify-content: center;
 
-  transition: .5s;
+  transition: 0.5s;
   border-radius: 10px;
 }
 
@@ -768,7 +818,7 @@ a {
   color: rgb(15, 15, 15);
   background: white;
   border-radius: 40px 40px 0 0;
-  transition: .5s;
+  transition: 0.5s;
   z-index: 1;
 }
 
@@ -793,42 +843,44 @@ a {
 
 @keyframes fadeInUp {
   from {
-      opacity: 1;
-      transform: translateY(20px);
+    opacity: 1;
+    transform: translateY(20px);
   }
 
   to {
-      opacity: 0;
-      transform: translateY(0);
+    opacity: 0;
+    transform: translateY(0);
   }
 }
 
-.linkcolor{
+.linkcolor {
   color: rgb(249, 169, 22);
-
 }
-@media (max-width:991px) {
+.mainlayout {
+  position: relative;
+}
+@media (max-width: 991px) {
   .bannerServices {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      padding: 50px 30px;
-  } 
-  .bannerServices .service-container{
-      width: 100%;
-  } 
-  .service-item{
-      border-radius: 10px;
-      padding: 60px;
-      padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 50px 30px;
   }
-  .service-item:hover{
-      border-radius: 10px;
-      padding: 30px;
-      padding: 1rem;
+  .bannerServices .service-container {
+    width: 100%;
   }
-  .service-container h5{
-      font-size: 16px;
+  .service-item {
+    border-radius: 10px;
+    padding: 60px;
+    padding: 1rem;
+  }
+  .service-item:hover {
+    border-radius: 10px;
+    padding: 30px;
+    padding: 1rem;
+  }
+  .service-container h5 {
+    font-size: 16px;
   }
 
   /* .bannerServices .row .bannerAboutImage{
@@ -836,28 +888,25 @@ a {
       justify-content: center;
       text-align: center;
   } */
-
 }
 
-@media(max-width:769px) {
+@media (max-width: 769px) {
   .bannerServices {
-      padding: 50px 10px;
+    padding: 50px 10px;
   }
-  .service-item{
-      width: 80%;
-      padding: 1rem;
+  .service-item {
+    width: 80%;
+    padding: 1rem;
   }
-
 }
-@media(max-width:590px) {
-  .service-item{
-      width: 90%;
-      padding: 1rem;
+@media (max-width: 590px) {
+  .service-item {
+    width: 90%;
+    padding: 1rem;
   }
   .bannerServices {
-      padding: 50px 10px;
+    padding: 50px 10px;
   }
-
 }
 /* Contact us Banner start  */
 
@@ -915,39 +964,38 @@ a {
   top: -12%;
 }
 
-@media (max-width:991px) {
+@media (max-width: 991px) {
   .inputText {
-      width: 90%;
-      
+    width: 90%;
   }
 
   .contactBanner .helpHeading {
-      font-size: 20px;
+    font-size: 20px;
   }
-  
+
   .contactBanner .contactUsHeading {
-      font-size: 30px;
+    font-size: 30px;
   }
 }
 
-@media(max-width:769px) {
-  .contactBanner{
-      padding: 50px 20px;
+@media (max-width: 769px) {
+  .contactBanner {
+    padding: 50px 20px;
   }
   .inputText {
-      width: 90%;
+    width: 90%;
   }
   .contactBanner .helpHeading {
-      font-size: 15px;
+    font-size: 15px;
   }
-  
+
   .contactBanner .contactUsHeading {
-      font-size: 25px;
+    font-size: 25px;
   }
 }
-@media(max-width:650px) {
+@media (max-width: 650px) {
   .inputText {
-      width: 90%;
+    width: 90%;
   }
 }
 
@@ -961,6 +1009,7 @@ a {
   padding: 0 50px;
   line-height: 30px;
   color: white;
+  position: relative;
 }
 
 .footer .row {
@@ -981,32 +1030,35 @@ a {
   top: 10px;
   cursor: pointer;
 }
-
+.whatsappicondiv {
+  position: fixed;
+  top: 85%;
+  left: 92%;
+  z-index: 10;
+}
 /* Tablet and larger screens */
 @media (min-width: 768px) {
   .footer .row {
-      flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 
   .footer .row .col-3 {
-      flex-basis: calc(33.333% - 40px);
-      margin: 50px 20px;
+    flex-basis: calc(33.333% - 40px);
+    margin: 50px 20px;
   }
-  
 }
 
 /* Larger screens */
 @media (min-width: 1200px) {
   .footer .row .col-3 {
-      flex-basis: calc(33.333% - 60px);
-      margin: 50px 30px;
+    flex-basis: calc(33.333% - 60px);
+    margin: 50px 30px;
   }
 }
 
 .footer .row .col-3 .section-title {
   text-align: left;
   color: #f6f4f9;
-
 }
 
 .footer .btn-social {
@@ -1018,9 +1070,9 @@ a {
   align-items: center;
   justify-content: center;
   background: white;
-  border: 1px solid rgba(256, 256, 256, .1);
+  border: 1px solid rgba(256, 256, 256, 0.1);
   border-radius: 50%;
-  transition: .3s;
+  transition: 0.3s;
   position: relative;
 }
 
@@ -1032,7 +1084,7 @@ a {
 
 .footer .btn.btn-social:hover {
   background-color: rgb(249, 169, 22);
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .footer .btn-link {
@@ -1042,7 +1094,7 @@ a {
   text-align: left;
   color: #fff;
   font-weight: normal;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .footer .abc a {
@@ -1089,7 +1141,6 @@ a {
 
 .top a {
   font-size: 30px;
-
 }
 
 .objectives {
@@ -1104,7 +1155,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Afacad';
+  font-family: "Afacad";
   font-weight: bold;
   margin-bottom: 50px;
 }
@@ -1137,7 +1188,7 @@ a {
   align-items: center;
   justify-content: center;
   background-color: #5500ff;
-  transition: .5s;
+  transition: 0.5s;
   border-radius: 10px;
 }
 
@@ -1149,11 +1200,11 @@ a {
 .objectives-item h5,
 .objectives-item {
   text-align: center;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .objectives-item h5 {
-  font-family: 'Afacad';
+  font-family: "Afacad";
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -1167,7 +1218,7 @@ a {
 .objectives-item:hover h5,
 .objectives-item:hover p,
 .objectives-item:hover {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .objectiveBanner {
@@ -1175,124 +1226,119 @@ a {
   margin-top: 50px;
 }
 
-@media (max-width:991px) {
+@media (max-width: 991px) {
   .objectiveBanner .responsivCollumn {
-      display: flex;
-      flex-direction: column;
+    display: flex;
+    flex-direction: column;
   }
   .objectiveBanner .responsivCollumn .col-8 {
-      display: flex;
-      justify-content: center;
-      text-align: center;
-      width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
   }
 
   .objectives-item {
-      min-width: 500px;
-      border-radius: 10px;
-      
-      /* margin: 30px auto; */
+    min-width: 500px;
+    border-radius: 10px;
+
+    /* margin: 30px auto; */
   }
 
-  .objectives{
-      display: flex;
-      padding: 50 0 0px 0px;
+  .objectives {
+    display: flex;
+    padding: 50 0 0px 0px;
   }
-  .headingOnjective{
-      display: flex;
-      font-size: 30px;
+  .headingOnjective {
+    display: flex;
+    font-size: 30px;
   }
   .objectives-item p {
-      padding: 0px 30px;
+    padding: 0px 30px;
   }
 }
 
-@media(max-width:769px) {
-  .objectiveBanner{
-      padding: 10px 30px;
+@media (max-width: 769px) {
+  .objectiveBanner {
+    padding: 10px 30px;
   }
   .objectives-item {
-      min-width: 400px;
-      border-radius: 10px;
-      /* margin: 30px auto; */
+    min-width: 400px;
+    border-radius: 10px;
+    /* margin: 30px auto; */
   }
   .objectives-item p {
-      padding: 0px 0px;
+    padding: 0px 0px;
   }
-  .objectives{
-      display: flex;
-      padding: 50px 0 0 0px;
+  .objectives {
+    display: flex;
+    padding: 50px 0 0 0px;
   }
-  .headingOnjective{
-      display: flex;
-      font-size: 20px;
+  .headingOnjective {
+    display: flex;
+    font-size: 20px;
   }
   .objectiveBanner .responsivCollumn .col-8 {
-      display: flex;
-      justify-content: center;
-      text-align: center;
-      width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
   }
-
 }
 
-
-@media(max-width:590px) {
-  .objectiveBanner{
-      padding: 0 20px;
+@media (max-width: 590px) {
+  .objectiveBanner {
+    padding: 0 20px;
   }
   .objectives-item {
-      min-width: 250px;
-      width: 100%;
-      border-radius: 10px;
-      /* margin: 30px auto; */
+    min-width: 250px;
+    width: 100%;
+    border-radius: 10px;
+    /* margin: 30px auto; */
   }
   .objectives-item p {
-      padding: 0px 0px;
+    padding: 0px 0px;
   }
-  .objectives{
-      display: flex;
-      font-size: 10px;
-      padding: 50px 0 0 0px;
+  .objectives {
+    display: flex;
+    font-size: 10px;
+    padding: 50px 0 0 0px;
   }
-  .headingOnjective{
-      display: flex;
-      font-size: 20px;
+  .headingOnjective {
+    display: flex;
+    font-size: 20px;
   }
   .objectiveBanner .responsivCollumn .col-8 {
-      display: flex;
-      justify-content: center;
-      text-align: center;
-      width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
   }
-
 }
 
-
-
-.service-item p{
+.service-item p {
   color: grey;
   margin-top: 20px;
 }
 
 .service-item:hover p,
 .service-item:hover {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.serviceHiring{
+.serviceHiring {
   padding: 20px 100px;
 }
-.serviceHiring h1{
+.serviceHiring h1 {
   display: flex;
   justify-content: center;
   text-align: center;
-  font-family: 'Afacad';
+  font-family: "Afacad";
   font-weight: 900;
   margin-bottom: 50px;
 }
 
-.serviceHiring-item{
+.serviceHiring-item {
   padding: 20px;
   border-radius: 30px;
   width: 100%;
@@ -1305,11 +1351,11 @@ a {
   color: grey;
 }
 
-.serviceHiring-item:hover{
+.serviceHiring-item:hover {
   background: #5500ff;
   transition: 0.5s;
 }
-.serviceHiring-item:hover p{
+.serviceHiring-item:hover p {
   color: white;
 }
 
@@ -1320,25 +1366,24 @@ a {
 
 @keyframes fadeInUp {
   from {
-      opacity: 1;
-      transform: translateY(20px);
+    opacity: 1;
+    transform: translateY(20px);
   }
 
   to {
-      opacity: 0;
-      transform: translateY(0);
+    opacity: 0;
+    transform: translateY(0);
   }
 }
 
-
-@media (max-width:991px) {
-  .serviceHiring{
-      width: 100%;
-      padding: 50px 40px;
-      margin-left: -10px;
+@media (max-width: 991px) {
+  .serviceHiring {
+    width: 100%;
+    padding: 50px 40px;
+    margin-left: -10px;
   }
-  .serviceHiring-item{
-      border-radius: 10px;
-      padding: 30px;
+  .serviceHiring-item {
+    border-radius: 10px;
+    padding: 30px;
   }
 }

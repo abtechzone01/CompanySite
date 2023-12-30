@@ -15,8 +15,10 @@ const Footer = () => {
                 alt=""
                 height={20}
                 width={20}
-              />{" "}
-              Bajpai Institute of Computer Science and Web Developers ,in front of state bank pilibhit road branch , Bisalpur (Pilibhit), UP-262201{" "}
+              />
+              Bajpai Institute of Computer Science and Web Developers ,in front
+              of state bank pilibhit road branch , Bisalpur (Pilibhit),
+              UP-262201{" "}
             </p>
             <p className="abcd">
               <Image
@@ -136,6 +138,8 @@ const Footer = () => {
             </button>
           </div> */}
         </div>
+
+        
       </div>
     </>
   );
