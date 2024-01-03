@@ -162,9 +162,9 @@ html {
 }
 
 .contactPage {
-  /* padding: 70px 300px;
-  margin: 50px; */
+  padding: 0rem 4rem;
   position: relative;
+  height: 450px;
 }
 .closediv{
   background-color: rgb(249, 169, 22);
@@ -189,33 +189,34 @@ html {
   align-items: center;
   font-family: "Afacad";
   font-weight: bold;
+  font-size: 30px;
 }
 .contactForm {
-  margin: 50px;
+  margin-top: 20px;
   /* display: flex; */
 }
 
 .contactForm .form-control {
-  padding: 15px;
+  padding: 10px;
   margin: 10px;
 }
 
 @media (max-width: 1200px) {
-  .contactPage {
-    /* padding: 70px 80px; */
-  }
+  /* .contactPage {
+    padding: 70px 80px;
+  } */
 }
 
 @media (max-width: 991px) {
-  .contactPage {
-    /* padding: 70px 50px; */
-  }
+  /* .contactPage {
+    padding: 70px 50px;
+  } */
 }
 
 @media (max-width: 769px) {
-  .contactPage {
-    /* padding: 70px 30px; */
-  }
+  /* .contactPage {
+    padding: 70px 30px;
+  } */
   .contactPage .row {
     display: flex;
     flex-direction: column;
@@ -227,12 +228,12 @@ html {
   }
 }
 @media (max-width: 590px) {
-  .contactPage {
-    /* display: flex;
+  /* .contactPage {
+    display: flex;
       flex-direction: column;
       padding: 70px 10px;
-      margin-left: 30px; */
-  }
+      margin-left: 30px;
+  } */
 
   .contactForm {
     margin: 0px;
@@ -854,10 +855,21 @@ a {
 }
 
 .linkcolor {
-  color: rgb(249, 169, 22);
+  color: rgb(255, 255, 255);
+  background-color: #649d6b;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.linkcolor:hover{
+  background-color: #520000;
+  transition: 2s;
 }
 .mainlayout {
   position: relative;
+}
+.projectView{
+  margin-top: 2rem;
 }
 @media (max-width: 991px) {
   .bannerServices {
@@ -944,12 +956,12 @@ a {
 }
 
 .inputText {
-  height: 50px;
+  height: 20px;
   width: 50%;
   border: none;
   border-radius: 30px;
   padding: 12px 20px;
-  /* margin: 8px; */
+  margin: 8px;
   position: relative;
 }
 
