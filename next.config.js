@@ -6,10 +6,10 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  rules: {
-    "@next/next/no-img-element": "off",
-  },
-  output: "export",
+  // rules: {
+  //   "@next/next/no-img-element": "off",
+  // },
+  // output: "export",
 };
 
 module.exports = nextConfig;
