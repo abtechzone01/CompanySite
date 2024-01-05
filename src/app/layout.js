@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <div className="mainlayout">
           <div className="whatsappicondiv">
-            <a target="_blank" href="https://wa.me/917505786956?text=Hi!%20I%20have%20visited%20your%20institutional%20site!">
+            <a target="_blank" href="https://wa.me/917505786956?text=Hi!%20I%20have%20visited%20your%20company%20site!e!">
               <Image src="/images/whatsapp.png" alt="" height={70} width={70} />
             </a>
           </div>

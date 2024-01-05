@@ -6,6 +6,7 @@ import Erp from "../../images/ERP.jpeg";
 import Institute from "../../images/institute.jpeg";
 import App from "../../images/app.jpeg";
 import Bestearning from "../../images/bestearning.jpeg";
+import Bhartiya from '../../images/bhartiya.jpeg';
 import Link from "next/link";
 const OurWork = () => {
   return (
@@ -30,21 +31,7 @@ const OurWork = () => {
               </Link>
             </div>
           </div>
-          <div className="service-item" data-wow-delay="0.1s">
-            <div className="service-iconservice">
-              <Image src={App} height={250} width={250} alt="" />
-            </div>
-            <h5>Earning App Solutions</h5>
-            <div className="projectView">
-              <Link
-                className="linkcolor"
-                href="https://earningappsolutions.online"
-                target="blank"
-              >
-                View
-              </Link>
-            </div>
-          </div>
+
           <div className="service-item" data-wow-delay="0.3s">
             <div className="service-iconservice">
               <Image src={Institute} height={250} width={250} alt="" />
@@ -62,6 +49,21 @@ const OurWork = () => {
           </div>
           <div className="service-item" data-wow-delay="0.3s">
             <div className="service-iconservice">
+              <Image src={Bhartiya} height={250} width={250} alt="" />
+            </div>
+            <h5>Bhartiya Robotics</h5>
+            <div className="projectView">
+              <Link
+                className="linkcolor"
+                href="https://bhartiyarobotics.com"
+                target="blank"
+              >
+                View
+              </Link>
+            </div>
+          </div>
+          <div className="service-item" data-wow-delay="0.3s">
+            <div className="service-iconservice">
               <Image src={Bestearning} height={250} width={250} alt="" />
             </div>
             <h5>Best Earning Apps</h5>
@@ -69,6 +71,21 @@ const OurWork = () => {
               <Link
                 className="linkcolor"
                 href="https://bestearningapps.online"
+                target="blank"
+              >
+                View
+              </Link>
+            </div>
+          </div>
+          <div className="service-item" data-wow-delay="0.1s">
+            <div className="service-iconservice">
+              <Image src={App} height={250} width={250} alt="" />
+            </div>
+            <h5>Earning App Solutions</h5>
+            <div className="projectView">
+              <Link
+                className="linkcolor"
+                href="https://earningappsolutions.online"
                 target="blank"
               >
                 View
