@@ -11,6 +11,7 @@ import Link from "next/link";
 const OurWork = () => {
   return (
     <>
+    
       <Header />
       <div className="bannerServices">
         <p className="heading">--- Our Work ---</p>
